@@ -17,8 +17,8 @@ function App() {
           <Route path="/" element={<HomePage />}/>
           <Route path="/about" element={<AboutPage />}/>
           <Route path="/writings" element={<WritingsPage />}/>
-          <Route path="/admin/login" element={<AdminLoginPage />}/>
-          <Route path="/admin/dashboard" element={<AdminDashboard />}/>
+          <Route path="/admin-login" element={<AdminLoginPage />}/>
+          <Route path="/admin-dashboard" element={<AdminDashboard />}/>
           <Route path="*" element={<NotFound />}/>
         </Routes>
     </Router>
